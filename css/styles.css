@@ -161,20 +161,51 @@ p {
     text-decoration: none;
 }
 
+
+
 .header-group .contact-link:hover,
 .header-group .contact-link:focus {
     color: var(--accent-cl);
 }
+
+/* .header-group .contact-link::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; */
+    /* background-color: red; */
+    /* background-image: url(../images/Logo/WebStudio.png);
+    background-size: contain; */
+    /* outline: 1px solid plum;
+}
+
+.header-group .contact-link::before:hover,
+.header-group .contact-link::before:focus {
+    color: var(--accent-cl);
+} */
+
+
 
 /* Hero */
 
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    
          
     text-align: center;
     background-color: var(--dark-bg-cl);
-    background-image: url();
+    background-image: linear-gradient(
+        to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/background/Img-rep.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    max-width: 1600px;
+    
 }
 
 /* .container.main-hero {
@@ -192,7 +223,7 @@ p {
     text-transform: uppercase;
     
     color: var(--hero-txt-cl);
-    background-color: var(--dark-bg-cl);
+    /* background-color: var(--dark-bg-cl); */
 }
 
 .btn {
@@ -263,9 +294,52 @@ p {
     margin-left: 30px;
 }
 
+.about-list .item: {
+    display: block;
+    content: "";
+    
+    height: 120px;
+    
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+/* .icon-antenna::before {
+    background-image: url(../images/icons/antenna\ 1.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/icons/clock\ 1.svg);
+}
+
+.icon-diagramma::before {
+    background-image: url(../images/icons/diagram\ 1.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/icons/astronaut\ 1.svg);
+} */
+
 .about-txt {
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+.icon-border {
+    width: 270px;
+    height: 120px;
+    
+    border-radius: 4px;
+    border: 1px solid rgba(175, 177, 184, 1)
+}
+
+.about-icon {
+    bo
+    align-items: center;
 }
 
 
@@ -360,6 +434,27 @@ p {
 
     background-color: var(--hero-txt-cl);
 }
+
+.team-card-bg {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    /* background-image: url(../images/icons/Logo.svg); */
+    background-color:#f0f;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.team-card-bg:hover {
+    background-color: teal;
+} 
+
+/* .social-link {
+    display: inline-block;
+
+} */
 
 .member-title {
     margin-top: 30px;
